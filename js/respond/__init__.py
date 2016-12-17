@@ -7,3 +7,5 @@ library = Library('respond.js', 'resources')
 # resource1 = Resource(library, 'style.css')
 
 respond = Resource(library, 'respond.src.js', minified='respond.min.js')
+
+respond_matchmedia = Resource(library, 'respond.matchmedia.addListener.src.js', minified='respond.matchmedia.addListener.min.js')
